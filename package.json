@@ -1,0 +1,13 @@
+{
+  "name": "eget",
+  "description": "easier wget tools",
+  "version": "0.0.1",
+  "bin": {
+    "eget": "./eget.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.1",
+    "fs": "0.0.2",
+    "http": "0.0.0"
+  }
+}
