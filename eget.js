@@ -22,6 +22,11 @@ var request = require('request');
         ignore: 'http://easier.b0.upaiyun.com/.gitignore'
     };
     var address = 'http://cdn.staticfile.org/';
+    if (opt[name] === undefined) {
+        console.log( "Sorry, " + name + " was not uncached...");
+        return ;
+    }
+
     var filename = opt[name].split('/').pop();
     if (version) {
         (function( name ){
