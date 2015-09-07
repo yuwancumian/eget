@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-var urlparse = require('url').parse;
-var http = require('http');
 var fs = require('fs');
 var request = require('request');
 
@@ -19,6 +17,8 @@ var request = require('request');
         modernizr: 'http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js',
         mustuche: 'http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js',
         require: 'http://cdn.bootcss.com/require.js/2.1.17/require.js',
+        react: 'http://easier.b0.upaiyun.com/react.js',
+        jsx: 'http://easier.b0.upaiyun.com/JSXTransformer.js',
         ignore: 'http://easier.b0.upaiyun.com/.gitignore',
         jshint: 'http://easier.b0.upaiyun.com/.jshintrc'
     };
@@ -43,4 +43,3 @@ var request = require('request');
     }
 
 })();
-//request(jquery).pipe(fs.createWriteStream('jquery.min.js'));
