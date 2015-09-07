@@ -6,8 +6,7 @@
     "eget": "./eget.js"
   },
   "dependencies": {
-    "shelljs": "^0.5.1",
     "fs": "0.0.2",
-    "http": "0.0.0"
+	"request": "2.61.0"
   }
 }

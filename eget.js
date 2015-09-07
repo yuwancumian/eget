@@ -19,15 +19,17 @@ var request = require('request');
         modernizr: 'http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js',
         mustuche: 'http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js',
         require: 'http://cdn.bootcss.com/require.js/2.1.17/require.js',
-        ignore: 'http://easier.b0.upaiyun.com/.gitignore'
+        ignore: 'http://easier.b0.upaiyun.com/.gitignore',
+        jshint: 'http://easier.b0.upaiyun.com/.jshintrc'
     };
     var address = 'http://cdn.staticfile.org/';
+    var filename = opt[name].split('/').pop();
     if (opt[name] === undefined) {
         console.log( "Sorry, " + name + " was not uncached...");
         return ;
     }
 
-    var filename = opt[name].split('/').pop();
+
     if (version) {
         (function( name ){
             request(address + name +'/' + version +'/'+ name + '.js').pipe(fs.createWriteStream(filename));
