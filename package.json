@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "fs": "0.0.2",
-	"request": "2.61.0"
+    "request": "2.61.0",
   }
 }

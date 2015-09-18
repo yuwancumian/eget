@@ -20,7 +20,8 @@ var request = require('request');
         react: 'http://easier.b0.upaiyun.com/react.js',
         jsx: 'http://easier.b0.upaiyun.com/JSXTransformer.js',
         ignore: 'http://easier.b0.upaiyun.com/.gitignore',
-        jshint: 'http://easier.b0.upaiyun.com/.jshintrc'
+        jshint: 'http://easier.b0.upaiyun.com/.jshintrc',
+        package: 'http://7lrxoq.com1.z0.glb.clouddn.com/package.json'
     };
     var address = 'http://cdn.staticfile.org/';
     var filename = opt[name].split('/').pop();
