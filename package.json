@@ -1,12 +1,23 @@
 {
   "name": "eget",
   "description": "easier wget tools",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "bin": {
     "eget": "./eget.js"
   },
+  "repo": {
+	"type": "git",
+	"url": "https://github.com/yuwancumian/easier_get.git"
+  },
+  "keywords": [
+	"wget",
+	"download",
+	"tools"
+  ],
   "dependencies": {
     "fs": "0.0.2",
-    "request": "2.61.0",
-  }
+    "request": "2.61.0"
+  },
+  "author": "yuwancumian",
+  "license": "MIT"
 }
