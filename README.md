@@ -1,4 +1,4 @@
-## Easier wget , like ``` eget jquery  ```
+## Easier wget tools
 
 A simple command tools, like wget.
 

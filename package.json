@@ -1,13 +1,14 @@
 {
   "name": "eget",
   "description": "easier wget tools",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "homepage": "https://github.com/yuwancumian/eget",
   "bin": {
     "eget": "./eget.js"
   },
   "repo": {
 	"type": "git",
-	"url": "https://github.com/yuwancumian/easier_get.git"
+	"url": "https://github.com/yuwancumian/eget.git"
   },
   "keywords": [
 	"wget",
@@ -19,5 +20,6 @@
     "request": "2.61.0"
   },
   "author": "yuwancumian",
+  "readmeFilename": "README.md",
   "license": "MIT"
 }
