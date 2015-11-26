@@ -5,7 +5,7 @@ var request = require('request');
 
 (function(){
     var name = process.argv[2];
-    var version = process.argv[3];
+    var path = process.argv[3];
     var opt = {
         jquery: 'http://cdn.staticfile.org/jquery/1.11.1/jquery.js',
         backbone: 'http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js',
@@ -23,15 +23,16 @@ var request = require('request');
         jshint: 'http://easier.b0.upaiyun.com/.jshintrc',
         package: 'http://7lrxoq.com1.z0.glb.clouddn.com/package.json'
     };
-    var address = 'http://cdn.staticfile.org/';
-    var filename = opt[name].split('/').pop();
     if (opt[name] === undefined) {
         console.log( "Sorry, " + name + " was not uncached...");
         return ;
     }
+    var address = 'http://cdn.staticfile.org/';
+    var filename = opt[name].split('/').pop();
 
 
-    if (version) {
+
+    if (path) {
         (function( name ){
             request(address + name +'/' + version +'/'+ name + '.js').pipe(fs.createWriteStream(filename));
         })(name);

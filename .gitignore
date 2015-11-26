@@ -2,6 +2,7 @@
 /bower_components/
 /spm_modules
 .gist
+*.swp
 *.sublime-project
 *.sublime-workspace
 npm-debug.log
