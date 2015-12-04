@@ -1,0 +1,20 @@
+{
+    "jquery": "http://cdn.staticfile.org/jquery/1.11.1/jquery.js",
+    "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
+    "underscore": "http://cdn.staticfile.org/underscore.js/1.7.0/underscore.js",
+    "zepto": "http://wbbb.com",
+    "bootjs": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.js",
+    "bootcss": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap.css",
+    "normalize": "http://easier.b0.upaiyun.com/css/normalize.css",
+    "modernizr": "http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js",
+    "mustuche": "http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js",
+    "require": "http://cdn.bootcss.com/require.js/2.1.17/require.js",
+    "react": "http://easier.b0.upaiyun.com/react.js",
+    "jsx": "http://easier.b0.upaiyun.com/JSXTransformer.js",
+    "ignore": "http://easier.b0.upaiyun.com/.gitignore",
+    "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
+    "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
+    "sss": "123",
+    "black": "123",
+    "bbb": "http://wbbb.com"
+}
