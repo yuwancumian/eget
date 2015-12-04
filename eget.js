@@ -5,11 +5,12 @@ var cfg = require('./config');
 var path = require('path');
 
 (function(){
+    var address = 'http://cdn.staticfile.org/';
     var name = process.argv[2];
     var url = process.argv[3];
+    var filename = cfg[name].split('/').pop();
     
     if (name === "set") {
-        console.log('set a path')
         name = process.argv[3];
         url = process.argv[4];
         cfg[name] = url;
@@ -23,21 +24,14 @@ var path = require('path');
         if (cfg[name] === undefined) {
             console.log( "Sorry, " + name + " was not uncached...");
             return ;
-        }
-
-        if (url) {
-            var filename = cfg[name].split('/').pop();
-            (function( name ){
-                request(address + name +'/' + version +'/'+ name + '.js').pipe(fs.createWriteStream(filename));
-            })(name);
-            console.log(filename +" was download!");
         } else {
+            console.log(filename);
             (function( name ){
                 request(cfg[name]).pipe(fs.createWriteStream(filename));
             })(name);
-            console.log(filename +" was download!");
         }
 
     }
+    console.log(filename +" was download!");
     cfg = require('./config');
 })();

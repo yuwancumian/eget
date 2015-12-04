@@ -1,7 +1,7 @@
 {
     "jquery": "http://cdn.staticfile.org/jquery/1.11.1/jquery.js",
     "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
-    "underscore": "http://cdn.staticfile.org/underscore.js/1.7.0/underscore.js",
+    "underscore": "https://lib.sinaapp.com/js/underscore/1.4.4/underscore.js",
     "zepto": "http://wbbb.com",
     "bootjs": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.js",
     "bootcss": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap.css",
@@ -16,5 +16,8 @@
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
     "sss": "123",
     "black": "123",
-    "bbb": "http://wbbb.com"
+    "bbb": "http://wbbb.com",
+    "abc": "http://abc.com",
+    "zzz": "http://zzz.com",
+    "react-dom": "https://fb.me/react-dom-0.14.3.js"
 }
