@@ -18,7 +18,8 @@
   "dependencies": {
     "fs": "0.0.2",
     "path": "^0.12.7",
-    "request": "2.61.0"
+    "request": "2.61.0",
+    "yargs": "^3.30.0"
   },
   "author": "yuwancumian",
   "readmeFilename": "README.md",

@@ -3,6 +3,9 @@ var fs = require('fs');
 var request = require('request');
 var cfg = require('./config');
 var path = require('path');
+var argv = require('yargs')
+            .alias('o','output')
+            .argv;
 
 (function(){
     var address;
@@ -25,7 +28,6 @@ var path = require('path');
     
         name = process.argv[2];
         url = process.argv[3];
-        filename = cfg[name].split('/').pop();
         
         if (cfg[name] === undefined) {
             
@@ -33,13 +35,30 @@ var path = require('path');
           return ;
 
         } else {
-                
-            console.log(filename);
-            (function( name ){
-                request(cfg[name]).pipe(fs.createWriteStream(filename));
-            })(name);
-    
-            console.log(filename +" was download!");
+                     
+            filename = cfg[name].split('/').pop();
+            console.log('Download '+ filename + ' from ' + cfg[name]);
+            (function(){
+                if (argv.o){
+                    request(cfg[name]).pipe(
+                        fs.createWriteStream(path.join(argv.o,filename)),function(err,res,body){
+                            if (err) {
+                                throw err;
+                            } 
+                        } 
+                    );
+                } else {
+                    request(cfg[name]).pipe(
+                        fs.createWriteStream(filename),function(err,res,body){
+                            if (err) {
+                                throw err;
+                            } 
+                        } 
+                    );
+                    console.log('no argv') 
+                }  
+            })();
+            console.log(filename +" was saved!");
 
         }
     }
