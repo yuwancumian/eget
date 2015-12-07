@@ -19,5 +19,6 @@
     "bbb": "http://wbbb.com",
     "abc": "http://abc.com",
     "zzz": "http://zzz.com",
-    "react-dom": "https://fb.me/react-dom-0.14.3.js"
+    "react-dom": "https://fb.me/react-dom-0.14.3.js",
+    "aaa": "http://aaa.com"
 }
