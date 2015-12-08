@@ -1,6 +1,6 @@
 ## Easier wget tools
 
-A simple command tools, like wget.
+A simple command tools, like wget
 
 ### Usage
 
@@ -8,19 +8,19 @@ A simple command tools, like wget.
 
 ``` eget undersocre ```
 
-``` eget ignore``` 
+### Example
 
-### methods
-eget fileName  
-eget fileName  URL
+```eget set scriptName Url ```
 
+```eget scriptName```
 
 ### install
+
 ``` npm install eget -g ```
 
 ### license
-MIT
 
+MIT
 
 
 
