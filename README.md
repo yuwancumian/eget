@@ -1,6 +1,6 @@
 ## Easier wget tools
 
-A simple command tools, like wget
+A simple download command 
 
 ### Example
 
