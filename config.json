@@ -2,7 +2,7 @@
     "jquery": "http://cdn.staticfile.org/jquery/1.11.1/jquery.js",
     "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
     "underscore": "https://lib.sinaapp.com/js/underscore/1.4.4/underscore.js",
-    "zepto": "http://wbbb.com",
+    "zepto": "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js",
     "bootjs": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/js/bootstrap.js",
     "bootcss": "http://cdn.staticfile.org/twitter-bootstrap/3.3.1/css/bootstrap.css",
     "normalize": "http://easier.b0.upaiyun.com/css/normalize.css",
@@ -14,12 +14,6 @@
     "ignore": "http://easier.b0.upaiyun.com/.gitignore",
     "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
-    "sss": "http://123.123",
-    "black": "123",
-    "bbb": "http://wbbb.com",
-    "abc": "http://abc.com",
-    "zzz": "http://zzz.com",
     "react-dom": "https://fb.me/react-dom-0.14.3.js",
-    "aaa": "http://aaa.com",
     "some": "http://www.some.com/some.js"
 }

@@ -3,6 +3,7 @@ var fs = require('fs');
 var request = require('request');
 var cfg = require('./config');
 var path = require('path');
+var chalk = require('chalk');
 var argv = require('yargs')
             .alias('o','output')
             .argv;
@@ -12,6 +13,10 @@ var argv = require('yargs')
     var name;
     var url;
     var filename;
+    if (!process.argv[2] || process.argv[2] === "") {
+        console.log('Sorry, a filename must be assigned!');
+        return;
+    }
 
     if (process.argv[2] === "set") {
 
@@ -20,7 +25,7 @@ var argv = require('yargs')
         cfg[name] = url;
         fs.writeFile(path.join(__dirname,'config.json'),JSON.stringify(cfg,null,4),function(err){
             if (err) throw err;
-            console.log(name +' was added!');
+            console.log(chalk.green(name +' was cached!'));
         })
 
 
@@ -37,7 +42,7 @@ var argv = require('yargs')
         } else {
                      
             filename = cfg[name].split('/').pop();
-            console.log('Download '+ filename + ' from ' + cfg[name]);
+            console.log('Download '+ filename + ' from ' + chalk.gray(cfg[name]));
             (function(){
                 if (argv.o){
                     request(cfg[name]).pipe(
@@ -61,7 +66,7 @@ var argv = require('yargs')
                     }
                 }  
             })();
-            console.log(filename +" was saved!");
+            console.log(chalk.green(filename +" was saved!"));
 
         }
     }

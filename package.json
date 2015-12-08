@@ -16,6 +16,7 @@
     "tools"
   ],
   "dependencies": {
+    "chalk": "^1.1.1",
     "fs": "0.0.2",
     "path": "^0.12.7",
     "request": "2.61.0",
