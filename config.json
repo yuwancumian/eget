@@ -14,11 +14,12 @@
     "ignore": "http://easier.b0.upaiyun.com/.gitignore",
     "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
-    "sss": "123",
+    "sss": "http://123.123",
     "black": "123",
     "bbb": "http://wbbb.com",
     "abc": "http://abc.com",
     "zzz": "http://zzz.com",
     "react-dom": "https://fb.me/react-dom-0.14.3.js",
-    "aaa": "http://aaa.com"
+    "aaa": "http://aaa.com",
+    "some": "http://www.some.com/some.js"
 }

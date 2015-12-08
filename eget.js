@@ -43,19 +43,22 @@ var argv = require('yargs')
                     request(cfg[name]).pipe(
                         fs.createWriteStream(path.join(argv.o,filename)),function(err,res,body){
                             if (err) {
-                                throw err;
+                                console.log(err)
                             } 
                         } 
                     );
                 } else {
-                    request(cfg[name]).pipe(
+                    try{
+                        request(cfg[name]).pipe(
                         fs.createWriteStream(filename),function(err,res,body){
                             if (err) {
-                                throw err;
+                                console.log(err)
                             } 
                         } 
                     );
-                    console.log('no argv') 
+                    } catch(e){
+                        console.log(e)
+                    }
                 }  
             })();
             console.log(filename +" was saved!");
