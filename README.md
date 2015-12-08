@@ -2,13 +2,13 @@
 
 A simple command tools, like wget
 
-### Usage
+### Example
 
 ``` eget jquery ```
 
 ``` eget undersocre ```
 
-### Example
+### Usage
 
 ```eget set scriptName Url ```
 
