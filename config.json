@@ -1,5 +1,5 @@
 {
-    "jquery": "http://cdn.staticfile.org/jquery/1.11.1/jquery.js",
+    "jquery": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js",
     "backbone": "http://cdn.staticfile.org/backbone.js/1.1.2/backbone.js",
     "underscore": "https://lib.sinaapp.com/js/underscore/1.4.4/underscore.js",
     "zepto": "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js",
