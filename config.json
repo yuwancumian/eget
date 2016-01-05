@@ -9,10 +9,12 @@
     "modernizr": "http://easier.b0.upaiyun.com/js/modernizr-2.6.2.min.js",
     "mustuche": "http://cdn.staticfile.org/mustache.js/0.8.1/mustache.js",
     "require": "http://cdn.bootcss.com/require.js/2.1.17/require.js",
-    "react": "http://easier.b0.upaiyun.com/react.js",
+    "react": "http://egetjs.b0.upaiyun.com/libs/react-0.14.3.js",
     "jsx": "http://easier.b0.upaiyun.com/JSXTransformer.js",
     "ignore": "http://easier.b0.upaiyun.com/.gitignore",
     "jshint": "http://easier.b0.upaiyun.com/.jshintrc",
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
-    "react-dom": "https://fb.me/react-dom-0.14.3.js"
+    "react-dom": "http://egetjs.b0.upaiyun.com/libs/react-dom-0.14.3.js",
+    "webpack.config": "http://egetjs.b0.upaiyun.com/libs/webpack.config.js",
+    "package.json": "http://egetjs.b0.upaiyun.com/libs/package.json"
 }

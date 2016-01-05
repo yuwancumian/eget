@@ -4,6 +4,7 @@ var request = require('request');
 var cfg = require('./config');
 var path = require('path');
 var chalk = require('chalk');
+var clip = require('cliparoo');
 var argv = require('yargs')
             .alias('o','output')
             .argv;
@@ -36,7 +37,7 @@ var argv = require('yargs')
         
         if (cfg[name] === undefined) {
             
-          console.log( "Sorry, " + name + " was not uncached...");
+          console.log( "Sorry, " + name + " was not uncached ...");
           return ;
 
         } else {
@@ -66,6 +67,11 @@ var argv = require('yargs')
                     }
                 }  
             })();
+
+            clip(filename,function(err){
+                if(err) throw err;
+            });
+
             console.log(chalk.green(filename +" was saved!"));
 
         }
