@@ -16,5 +16,10 @@
     "package": "http://7lrxoq.com1.z0.glb.clouddn.com/package.json",
     "react-dom": "http://egetjs.b0.upaiyun.com/libs/react-dom-0.14.3.js",
     "webpack.config": "http://egetjs.b0.upaiyun.com/libs/webpack.config.js",
-    "package.json": "http://egetjs.b0.upaiyun.com/libs/package.json"
+    "package.json": "http://egetjs.b0.upaiyun.com/libs/package.json",
+    "seajs": "http://egetjs.b0.upaiyun.com/libs/sea.js",
+    "bablerc": "http://egetjs.b0.upaiyun.com/libs/.babelrc",
+    "babelrc": "http://egetjs.b0.upaiyun.com/libs/.babelrc",
+    "vagrantfile": "http://egetjs.b0.upaiyun.com/libs/Vagrantfile",
+    "vagrant_init": "http://egetjs.b0.upaiyun.com/libs/vagrant_init.sh"
 }

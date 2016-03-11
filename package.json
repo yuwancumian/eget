@@ -1,14 +1,14 @@
 {
   "name": "eget",
   "description": "easier wget tools",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "homepage": "https://github.com/yuwancumian/eget",
   "bin": {
     "eget": "./eget.js"
   },
-  "repo": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/yuwancumian/eget.git"
+    "url": "git://github.com/yuwancumian/eget.git"
   },
   "keywords": [
     "wget",

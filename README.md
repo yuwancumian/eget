@@ -4,15 +4,16 @@ A simple download tool
 
 ### Usage
 
-```eget set scriptName Url ```
+eget set scriptName Url 
 
-```eget scriptName```
+eget scriptName```
 
 ### Example
 
 ``` eget set jquery https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js ```
 
 ``` eget jquery ```
+
 
 
 ### install
@@ -22,6 +23,4 @@ A simple download tool
 ### license
 
 MIT
-
-
 
