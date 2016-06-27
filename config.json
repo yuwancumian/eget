@@ -21,5 +21,7 @@
     "bablerc": "http://egetjs.b0.upaiyun.com/libs/.babelrc",
     "babelrc": "http://egetjs.b0.upaiyun.com/libs/.babelrc",
     "vagrantfile": "http://egetjs.b0.upaiyun.com/libs/Vagrantfile",
-    "vagrant_init": "http://egetjs.b0.upaiyun.com/libs/vagrant_init.sh"
+    "vagrant_init": "http://egetjs.b0.upaiyun.com/libs/vagrant_init.sh",
+    "wordpress": "https://wordpress.org/latest.tar.gz",
+    "wp-api": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.1.zip"
 }
